@@ -1,0 +1,47 @@
+{
+    "b-autocomplete/value": {
+        "description": "String or Number value",
+        "type": "string!number"
+    },
+    "b-autocomplete/data": {
+        "description": "Options / suggestions",
+        "type": "array"
+    },
+    "b-autocomplete/field": {
+        "description": "Property of the object (if data is array of objects) to use as display text, and to keep track of selected option",
+        "type": "string"
+    },
+    "b-autocomplete/clear-on-select": {
+        "description": "Clear input text on select",
+        "type": "boolean"
+    },
+    "b-autocomplete/open-on-focus": {
+        "description": "Open dropdown list on focus",
+        "type": "boolean"
+    },
+    "b-autocomplete/size": {
+        "description": "Vertical size of input, optional",
+        "type": "string"
+    },
+    "b-autocomplete/expanded": {
+        "description": "Makes input full width when inside a grouped or addon field",
+        "type": "boolean"
+    },
+    "b-autocomplete/loading": {
+        "description": "Add the loading state to the input",
+        "type": "boolean"
+    },
+    "b-autocomplete/icon": {
+        "description": "Icon name to be added",
+        "type": "string"
+    },
+    "b-autocomplete/icon-pack": {
+        "description": "Icon pack to use",
+        "type": "string"
+    },
+    "b-autocomplete/maxlength": {
+        "description": "Same as native maxlength, plus character counter",
+        "type": "string|number"
+    }
+  }
+  
