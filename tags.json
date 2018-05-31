@@ -354,6 +354,7 @@
             "rounded",
             "closable",
             "attached",
+            "ellipsis",
             "tabstop",
             "disabled"
         ],
@@ -376,6 +377,7 @@
             "size",
             "rounded",
             "attached",
+            "ellipsis",
             "field",
             "autocomplete",
             "allow-new",

@@ -835,6 +835,10 @@
         "description": "Close/delete button style equal to attached tags",
         "type": "boolean"
     },
+    "b-tag/ellipsis": {
+        "description": "Adds ellipsis to not overflow the text",
+        "type": "boolean"
+    },
     "b-tag/tabstop": {
         "description": "If should stop when using tab key",
         "type": "boolean"
@@ -873,6 +877,10 @@
     },
     "b-taginput/attached": {
         "description": "Makes the tags attached instead of having an appended delete button, optional",
+        "type": "boolean"
+    },
+    "b-taginput/ellipsis": {
+        "description": "Adds ellipsis on tags to not overflow the text",
         "type": "boolean"
     },
     "b-taginput/field": {
