@@ -175,6 +175,10 @@
         "description": "Array of unselectable days of week",
         "type": "array"
     },
+    "b-datepicker/selectable-dates": {
+        "description": "Array of selectable dates",
+        "type": "array"
+    },
     "b-datepicker/month-names": {
         "description": "Names of months to display in table header",
         "type": "array"
