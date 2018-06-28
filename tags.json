@@ -163,6 +163,8 @@
             "type",
             "active",
             "closable",
+            "auto-close",
+            "duration",
             "has-icon",
             "size",
             "icon-size",
