@@ -923,6 +923,10 @@
         "description": "Function to validate the value of the tag before adding",
         "type": "function"
     },
+    "b-taginput/allow-duplicates": {
+        "description": "Allows adding the same tag multiple times",
+        "type": "boolean"
+    },
     "b-taginput/data": {
         "description": "Options / suggestions (Autocomplete)",
         "type": "array<string>|array<number>|array<object>"
