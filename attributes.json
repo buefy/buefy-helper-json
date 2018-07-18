@@ -467,6 +467,14 @@
         "description": "Adds an 'X' button that closes the notification",
         "type": "boolean"
     },
+    "b-notification/auto-close": {
+        "description": "Hide notification after duration",
+        "type": "boolean"
+    },
+    "b-notification/duration": {
+        "description": "Visibility duration in miliseconds",
+        "type": "number"
+    },
     "b-notification/has-icon": {
         "description": "Adds an icon on the left side depending on the type",
         "type": "boolean"
