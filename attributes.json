@@ -67,6 +67,10 @@
         "description": "Same as native disabled",
         "type": "boolean"
     },
+    "b-checkbox/required": {
+        "description": "Same as native required",
+        "type": "boolean"
+    },
     "b-checkbox/name": {
         "description": "Same as native name",
         "type": "string"
@@ -537,6 +541,10 @@
     },
     "b-radio/disabled": {
         "description": "Same as native disabled",
+        "type": "boolean"
+    },
+    "b-radio/required": {
+        "description": "Same as native required",
         "type": "boolean"
     },
     "b-radio/name": {

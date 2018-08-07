@@ -24,6 +24,7 @@
             "true-value",
             "false-value",
             "disabled",
+            "required",
             "name",
             "size",
             "type"
@@ -232,6 +233,7 @@
             "value",
             "native-value",
             "disabled",
+            "required",
             "name",
             "size",
             "type"
