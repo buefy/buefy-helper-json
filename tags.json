@@ -166,6 +166,7 @@
             "closable",
             "auto-close",
             "duration",
+            "icon-pack",
             "has-icon",
             "size",
             "icon-size",
@@ -199,6 +200,7 @@
             "closable",
             "auto-close",
             "duration",
+            "icon-pack",
             "has-icon"
         ],
         "subtags": [],
@@ -211,7 +213,8 @@
             "current",
             "order",
             "size",
-            "simple"
+            "simple",
+            "icon-pack"
         ],
         "subtags": [],
         "description": "Buefy component <b-pagination>"
@@ -223,7 +226,8 @@
             "has-custom-template",
             "header",
             "content",
-            "animation"
+            "animation",
+            "icon-pack"
         ],
         "subtags": [],
         "description": "Buefy component <b-panel>"
@@ -310,7 +314,8 @@
             "has-detailed-visible",
             "detail-key",
             "custom-is-checked",
-            "is-row-checkable"
+            "is-row-checkable",
+            "icon-pack"
         ],
         "subtags": ["b-table-column"],
         "description": "Buefy component <b-table>"

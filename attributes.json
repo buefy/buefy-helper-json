@@ -395,6 +395,10 @@
         "description": "Visibility duration in miliseconds",
         "type": "number"
     },
+    "b-message/icon-pack": {
+        "description": "Icon pack to use",
+        "type": "string"
+    },
     "b-message/has-icon": {
         "description": "Adds an icon on the left side depending on the type",
         "type": "boolean"
@@ -479,6 +483,10 @@
         "description": "Visibility duration in miliseconds",
         "type": "number"
     },
+    "b-notification/icon-pack": {
+        "description": "Icon pack to use",
+        "type": "string"
+    },
     "b-notification/has-icon": {
         "description": "Adds an icon on the left side depending on the type",
         "type": "boolean"
@@ -507,6 +515,10 @@
         "description": "Simpler style",
         "type": "boolean"
     },
+    "b-pagination/icon-pack": {
+        "description": "Icon pack to use",
+        "type": "string"
+    },
     "b-panel/collapsible": {
         "description": "Panel will be collapsible",
         "type": "boolean"
@@ -529,6 +541,10 @@
     },
     "b-panel/animation": {
         "description": "Custom animation (transition name)",
+        "type": "string"
+    },
+    "b-panel/icon-pack": {
+        "description": "Icon pack to use",
         "type": "string"
     },
     "b-radio/value": {
@@ -758,6 +774,10 @@
     "b-table/is-row-checkable": {
         "description": "Custom method to verify if a row is disabled, works when is checkable. ",
         "type": "function(row:object)"
+    },
+    "b-table/icon-pack": {
+        "description": "Icon pack to use",
+        "type": "string"
     },
     "b-table-column/label": {
         "description": "Column header text, also used to identify column if custom-key prop is missing",
