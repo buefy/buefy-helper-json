@@ -17,6 +17,22 @@
         "subtags": [],
         "description": "Buefy component <b-autocomplete>"
     },
+    "b-button": {
+        "attributes": [
+            "type",
+            "size",
+            "loading",
+            "rounded",
+            "outlined",
+            "icon-left",
+            "icon-right",
+            "icon-pack",
+            "native-type",
+            "tag"
+        ],
+        "subtags": [],
+        "description": "Buefy component <b-button>"
+    },
     "b-checkbox": {
         "attributes": [
             "value",

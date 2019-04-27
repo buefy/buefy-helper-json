@@ -47,6 +47,46 @@
         "description": "Same as native maxlength, plus character counter",
         "type": "string|number"
     },
+    "b-button/type": {
+        "description": "Type (color) of the control, optional",
+        "type": "string"
+    },
+    "b-button/size": {
+        "description": "Vertical size of button, optional",
+        "type": "string"
+    },
+    "b-button/loading": {
+        "description": "Add the loading state to the button",
+        "type": "boolean"
+    },
+    "b-button/rounded": {
+        "description": "Rounded style",
+        "type": "boolean"
+    },
+    "b-button/outlined": {
+        "description": "Outlined style",
+        "type": "boolean"
+    },
+    "b-button/icon-left": {
+        "description": "Icon name to show on the left",
+        "type": "string"
+    },
+    "b-button/icon-right": {
+        "description": "Icon name to show on the right",
+        "type": "string"
+    },
+    "b-button/icon-pack": {
+        "description": "Icon pack to use",
+        "type": "string"
+    },
+    "b-button/native-type": {
+        "description": "Button type, like native",
+        "type": "string"
+    },
+    "b-button/tag": {
+        "description": "Button tag name",
+        "type": "string"
+    },
     "b-checkbox/value": {
         "description": "Binding value",
         "type": "any"
