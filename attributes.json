@@ -671,6 +671,58 @@
         "description": "Same as native size",
         "type": "number"
     },
+    "b-sidebar/open": {
+        "description": "To control the behaviour of the sidebar programmatically, use the .sync modifier to make it two-way binding",
+        "type": "boolean"
+    },
+    "b-sidebar/position": {
+        "description": "Set display position of sidebar",
+        "options": ["fixed", "static", "absolute"]
+    },
+    "b-sidebar/type": {
+        "description": "Type (color) of the background, optional",
+        "type": "string"
+    },
+    "b-sidebar/can-cancel": {
+        "description": "Can close Modal by clicking 'X', pressing escape or clicking outside",
+        "type": "boolean|array"
+    },
+    "b-sidebar/on-cancel": {
+        "description": "Callback function to call after user canceled (clicked 'X' / pressed escape / clicked outside)",
+        "type": "function"
+    },
+    "b-sidebar/fullwidth": {
+        "description": "Show sidebar in fullwidth.",
+        "type": "boolean"
+    },
+    "b-sidebar/fullheight": {
+        "description": "Show sidebar in fullheight.",
+        "type": "boolean"
+    },
+    "b-sidebar/mobile": {
+        "description": "Custom layout on mobile",
+        "options": ["fullwidth", "reduce", "hidden"]
+    },
+    "b-sidebar/right": {
+        "description": "Show the sidebar on right",
+        "type": "boolean"
+    },
+    "b-sidebar/overlay": {
+        "description": "Show an overlay when sidebar is open",
+        "type": "boolean"
+    },
+    "b-sidebar/expand-on-hover": {
+        "description": "Expand sidebar on hover when reduced or mobile is reduce",
+        "type": "boolean"
+    },
+    "b-sidebar/reduce": {
+        "description": "Show a small sidebar",
+        "type": "boolean"
+    },
+    "b-sidebar/container": {
+        "description": "DOM element the sidebar will be created on when fixed",
+        "type": "string"
+    },
     "b-switch/type": {
         "description": "Type (color) of the switch, optional",
         "type": "string"

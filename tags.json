@@ -287,6 +287,25 @@
         "subtags": [],
         "description": "Buefy component <b-select>"
     },
+    "b-sidebar": {
+        "attributes": [
+            "open",
+            "position",
+            "type",
+            "can-cancel",
+            "on-cancel",
+            "fullwidth",
+            "fullheight",
+            "mobile",
+            "right",
+            "overlay",
+            "expand-on-hover",
+            "reduce",
+            "container"
+        ],
+        "subtags": [],
+        "description": "Buefy component <b-sidebar>"
+    },
     "b-switch": {
         "attributes": [
             "type",
