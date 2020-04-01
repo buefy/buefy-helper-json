@@ -11,6 +11,10 @@
         "description": "Property of the object (if data is array of objects) to use as display text, and to keep track of selected option",
         "type": "string"
     },
+    "b-autocomplete/custom-formatter": {
+        "description": "Function to format an option to a string for display in the input as alternative to field prop)",
+        "type": "function"
+    },
     "b-autocomplete/clear-on-select": {
         "description": "Clear input text on select",
         "type": "boolean"
@@ -25,7 +29,7 @@
     },
     "b-autocomplete/size": {
         "description": "Vertical size of input, optional",
-        "type": "string"
+        "options": ["is-small", "is-medium", "is-large"]
     },
     "b-autocomplete/expanded": {
         "description": "Makes input full width when inside a grouped or addon field",
@@ -43,9 +47,29 @@
         "description": "Icon pack to use",
         "type": "string"
     },
+    "b-autocomplete/clearable": {
+        "description": "Add a button to clear the inputed text",
+        "type": "boolean"
+    },
     "b-autocomplete/maxlength": {
         "description": "Same as native maxlength, plus character counter",
         "type": "string|number"
+    },
+    "b-autocomplete/check-infinite-scroll": {
+        "description": "Makes the component check if list reached scroll end and emit infinite-scroll event.",
+        "type": "boolean"
+    },
+    "b-autocomplete/max-height": {
+        "description": "Max height of dropdown content",
+        "type": "string|number"
+    },
+    "b-autocomplete/dropdown-position": {
+        "description": "Position of dropdown",
+        "options": ["top", "bottom", "auto"]
+    },
+    "b-autocomplete/append-to-body": {
+        "description": "Append autocomplete content to body",
+        "type": "boolean"
     },
     "b-button/type": {
         "description": "Type (color) of the control, optional",

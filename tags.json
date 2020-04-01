@@ -4,6 +4,7 @@
             "value",
             "data",
             "field",
+            "custom-formatter",
             "clear-on-select",
             "open-on-focus",
             "keep-first",
@@ -12,7 +13,12 @@
             "loading",
             "icon",
             "icon-pack",
-            "maxlength"
+            "clearable",
+            "maxlength",
+            "check-infinite-scroll",
+            "max-height",
+            "dropdown-position",
+            "append-to-body"
         ],
         "subtags": [],
         "description": "Buefy component <b-autocomplete>"
