@@ -253,11 +253,15 @@
     },
     "b-dropdown/position": {
         "description": "Optional, position of the dropdown relative to the trigger",
-        "type": "string"
+        "options": ["is-top-right", "is-top-left", "is-bottom-left"]
     },
     "b-dropdown/disabled": {
         "description": "Disables dropdown",
         "type": "boolean"
+    },
+    "b-dropdown/animation": {
+        "description": "Custom animation (transition name)",
+        "type": "string"
     },
     "b-dropdown/inline": {
         "description": "Dropdown content (items) are shown inline, trigger is removed",
@@ -265,6 +269,34 @@
     },
     "b-dropdown/mobile-modal": {
         "description": "Dropdown content (items) are shown into a modal on mobile",
+        "type": "boolean"
+    },
+    "b-dropdown/expanded": {
+        "description": "Dropdown will be expanded (full-width)",
+        "type": "boolean"
+    },
+    "b-dropdown/aria-role": {
+        "description": "Role attribute to be passed to list container for better accessibility. Use menu only in situations where your dropdown is related to navigation menus.",
+        "options": ["list", "menu", "dialog"]
+    },
+    "b-dropdown/multiple": {
+        "description": "Allows multiple selections",
+        "type": "boolean"
+    },
+    "b-dropdown/trap-focus": {
+        "description": "Trap focus inside the dropdown.",
+        "type": "boolean"
+    },
+    "b-dropdown/can-close": {
+        "description": "Can close dropdown by pressing escape or by clicking outside",
+        "type": "boolean|array"
+    },
+    "b-dropdown/close-on-click": {
+        "description": "Close dropdown when content is clicked",
+        "type": "boolean"
+    },
+    "b-dropdown/append-to-body": {
+        "description": "Append dropdown content to body",
         "type": "boolean"
     },
     "b-dropdown-item/value": {
@@ -290,6 +322,10 @@
     "b-dropdown-item/paddingless": {
         "description": "Remove padding",
         "type": "boolean"
+    },
+    "b-dropdown-item/aria-role": {
+        "description": "Role attribute to be passed to list item for better accessibility. Use menuitem only in situations where your dropdown is related to navigation menus.",
+        "options": ["listitem", "menuitem"]
     },
     "b-field/type": {
         "description": "Type (color) of the field and help message, also adds a matching icon, optional. Used by Input, Select and Autocomplete",

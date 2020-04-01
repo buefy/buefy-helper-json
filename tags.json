@@ -102,8 +102,16 @@
             "hoverable",
             "position",
             "disabled",
+            "animation",
             "inline",
-            "mobile-modal"
+            "mobile-modal",
+            "expanded",
+            "aria-role",
+            "multiple",
+            "trap-focus",
+            "can-close",
+            "close-on-click",
+            "append-to-body"
         ],
         "subtags": ["b-dropdown-item"],
         "description": "Buefy component <b-dropdown>"
@@ -113,9 +121,11 @@
             "value",
             "separator",
             "disabled",
+            "focusable",
             "custom",
             "has-link",
-            "paddingless"
+            "paddingless",
+            "aria-role"
         ],
         "subtags": [],
         "description": "Buefy component <b-dropdown-item>"
