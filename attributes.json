@@ -503,6 +503,78 @@
         "description": "clip to remove the &lt;body&gt; scrollbar, keep to have a non scrollable scrollbar\r\n                    to avoid shifting background, but will set &lt;body&gt; to position fixed, might break some layouts",
         "type": "string"
     },
+    "b-navbar/transparent": {
+        "description": "Remove any hover or active background from the navbar items",
+        "type": "boolean"
+    },
+    "b-navbar/fixed-top": {
+        "description": "Fixes the navbar to the top of the page",
+        "type": "boolean"
+    },
+    "b-navbar/fixed-bottom": {
+        "description": "Fixes the navbar to the bottom of the page",
+        "type": "boolean"
+    },
+    "b-navbar/is-active": {
+        "description": "To control the behaviour of the mobile menu programmatically, use the .sync modifier to make it two-way binding",
+        "type": "boolean"
+    },
+    "b-navbar/type": {
+        "description": "Type (color) of the background, optional",
+        "type": "string"
+    },
+    "b-navbar/wrapper-class": {
+        "description": "To wrap the navbar content into an div with the provided class",
+        "type": "string"
+    },
+    "b-navbar/close-on-click": {
+        "description": "Control the behavior of the mobile menu by clicking on a link or outside the menu",
+        "type": "boolean"
+    },
+    "b-navbar/mobile-burger": {
+        "description": "Use to display or not the burger on mobile resolution.",
+        "type": "boolean"
+    },
+    "b-navbar/spaced": {
+        "description": "Sets Top and Bottom paddings with 1rem, Left and Right paddings with 2rem",
+        "type": "boolean"
+    },
+    "b-navbar/shadow": {
+        "description": "Add a shadow to navbar",
+        "type": "boolean"
+    },
+    "b-navbar-dropdown/hoverable": {
+        "description": "Dropdown will be triggered by hover instead of click",
+        "type": "boolean"
+    },
+    "b-navbar-dropdown/active": {
+        "description": "Item is active",
+        "type": "boolean"
+    },
+    "b-navbar-dropdown/right": {
+        "description": "Dropdown will be anchored to the right side",
+        "type": "boolean"
+    },
+    "b-navbar-dropdown/arrowless": {
+        "description": "Show/hide arrow icon on dropdown",
+        "type": "boolean"
+    },
+    "b-navbar-dropdown/boxed": {
+        "description": "Show a boxed version of the dropdown",
+        "type": "boolean"
+    },
+    "b-navbar-dropdown/collapsible": {
+        "description": "Collapsible dropdown on mobile",
+        "type": "boolean"
+    },
+    "b-navbar-item/tag": {
+        "description": "Sets the type of the component that have to render as navbar-item",
+        "type": "string"
+    },
+    "b-navbar-item/active": {
+        "description": "Item is active",
+        "type": "boolean"
+    },
     "b-notification/type": {
         "description": "Type (color) of the notification, optional",
         "type": "string"

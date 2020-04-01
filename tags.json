@@ -209,6 +209,39 @@
         "subtags": [],
         "description": "Buefy component <b-modal>"
     },
+    "b-navbar": {
+        "attributes": [
+            "transparent",
+            "fixed-top",
+            "fixed-bottom",
+            "is-active",
+            "type",
+            "wrapper-class",
+            "close-on-click",
+            "mobile-burger",
+            "spaced",
+            "shadow"
+        ],
+        "description": "Buefy component <b-navbar>"
+    },
+    "b-navbar-dropdown": {
+        "attributes": [
+            "hoverable",
+            "active",
+            "right",
+            "arrowless",
+            "boxed",
+            "collapsible"
+        ],
+        "description": "Buefy component <b-navbar-dropdown>"
+    },
+    "b-navbar-item": {
+        "attributes": [
+            "tag",
+            "active"
+        ],
+        "description": "Buefy component <b-navbar-item>"
+    },
     "b-notification": {
         "attributes": [
             "type",
