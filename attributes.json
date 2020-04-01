@@ -279,6 +279,10 @@
         "description": "Function to parse string to a date for set a date from the input to the component",
         "type": "function"
     },
+    "b-datepicker/date-creator": {
+        "description": "Function used internally to create a new Date instance",
+        "type": "function"
+    },
     "b-datepicker/min-date": {
         "description": "Earliest date available for selection",
         "type": "date"
@@ -293,7 +297,7 @@
     },
     "b-datepicker/indicators": {
         "description": "Shape to use when showing event indicators",
-        "type": "string"
+        "options": ["dots", "bars"]
     },
     "b-datepicker/focused-date": {
         "description": "Date that should be initially focused upon",
@@ -301,14 +305,14 @@
     },
     "b-datepicker/size": {
         "description": "Vertical size of input and picker, optional",
-        "type": "string"
+        "options": ["is-small", "is-medium", "is-large"]
     },
     "b-datepicker/inline": {
         "description": "Datepicker is shown inline, input is removed",
         "type": "boolean"
     },
-    "b-datepicker/readonly": {
-        "description": "Does not allow to type a date, set to false to enable input. <b>Note that you might have to set a custom date parser</b>",
+    "b-datepicker/editable": {
+        "description": "Enable input/typing. Note that you might have to set a custom date parser",
         "type": "boolean"
     },
     "b-datepicker/loading": {
@@ -321,6 +325,14 @@
     },
     "b-datepicker/icon-pack": {
         "description": "Icon pack to use",
+        "options": ["mdi", "fa", "fas", "far", "fad", "fal"]
+    },
+    "b-datepicker/icon-prev": {
+        "description": "Icon to use for previous month",
+        "type": "string"
+    },
+    "b-datepicker/icon-next": {
+        "description": "Icon to use for next month",
         "type": "string"
     },
     "b-datepicker/unselectable-dates": {
@@ -353,6 +365,62 @@
     },
     "b-datepicker/position": {
         "description": "Optional, position of the datepicker relative to the input",
+        "options": ["is-top-right", "is-top-left", "is-bottom-left"]
+    },
+    "b-datepicker/open-on-focus": {
+        "description": "Open datepicker on input focus",
+        "type": "boolean"
+    },
+    "b-datepicker/type": {
+        "description": "Type of picker",
+        "options": ["month"]
+    },
+    "b-datepicker/years-range": {
+        "description": "Years range relative to selected year",
+        "type": "array"
+    },
+    "b-datepicker/nearby-month-days": {
+        "description": "Show/Hide nearby month days (prev and next month)",
+        "type": "boolean"
+    },
+    "b-datepicker/nearby-selectable-month-days": {
+        "description": "When nearby-month-days, it allows to select/unselect nearby month days",
+        "type": "boolean"
+    },
+    "b-datepicker/show-week-number": {
+        "description": "Display week number",
+        "type": "boolean"
+    },
+    "b-datepicker/rules-for-first-week": {
+        "description": "Choose the rule to determinate the first week of Year, 4 for ISO or 1 for other",
+        "type": "number"
+    },
+    "b-datepicker/range": {
+        "description": "Flag to allow choosing a range of date",
+        "type": "boolean"
+    },
+    "b-datepicker/multiple": {
+        "description": "Flag to allow choosing multiple dates",
+        "type": "boolean"
+    },
+    "b-datepicker/focusable": {
+        "description": "Datepicker container can be focused",
+        "type": "boolean"
+    },
+    "b-datepicker/trap-focus": {
+        "description": "Trap focus inside the datepicker.",
+        "type": "boolean"
+    },
+    "b-datepicker/append-to-body": {
+        "description": "Append datepicker calendar to body",
+        "type": "boolean"
+    },
+    "b-datepicker/aria-next-label": {
+        "description": "Accessibility label for the next month button.",
+        "type": "string"
+    },
+    "b-datepicker/aria-previous-label": {
+        "description": "Accessibility label for the previous month button.",
         "type": "string"
     },
     "b-dropdown/value": {
