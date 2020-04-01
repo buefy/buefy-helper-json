@@ -997,15 +997,27 @@
     },
     "b-tabs/type": {
         "description": "Type/Style of the tab, optional",
-        "type": "string"
+        "options": ["is-boxed", "is-toggle"]
     },
     "b-tabs/size": {
         "description": "Size of the tab, optional",
-        "type": "string"
+        "options": ["is-small", "is-medium", "is-large"]
     },
     "b-tabs/position": {
         "description": "Position of the tab, optional",
-        "type": "string"
+        "options": ["is-centered", "is-right"]
+    },
+    "b-tabs/vertical": {
+        "description": "Display the tabs vertically. The content will be placed at right.",
+        "type": "boolean"
+    },
+    "b-tabs/destroy-on-hide": {
+        "description": "Destroy tabitem on hide",
+        "type": "boolean"
+    },
+    "b-tabs/multiline": {
+        "description": "Tabs will be multilined",
+        "type": "boolean"
     },
     "b-tab-item/label": {
         "description": "Tab label",

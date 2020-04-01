@@ -411,7 +411,10 @@
             "animated",
             "type",
             "size",
-            "position"
+            "position",
+            "vertical",
+            "destroy-on-hide",
+            "multiline"
         ],
         "subtags": ["b-tab-item"],
         "description": "Buefy component <b-tabs>"
