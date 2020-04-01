@@ -66,6 +66,34 @@
         "subtags": "checkbox-button",
         "description": "Buefy component <b-checkbox-button>"
     },
+    "b-clockpicker": {
+        "attributes": [
+            "value",
+            "type",
+            "hour-format",
+            "time-formatter",
+            "time-parser",
+            "min-time",
+            "max-time",
+            "size",
+            "inline",
+            "editable",
+            "disabled",
+            "loading",
+            "icon",
+            "icon-pack",
+            "unselectable-times",
+            "mobile-native",
+            "position",
+            "auto-switch",
+            "open-on-focus",
+            "hours-label",
+            "minutes-label",
+            "append-to-body"
+        ],
+        "subtags": [],
+        "description": "Buefy component <b-datepicker>"
+    },
     "b-collapse": {
         "attributes": [
             "open",

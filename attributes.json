@@ -171,6 +171,94 @@
         "description": "Size of the button, optional",
         "type": "string"
     },
+    "b-clockpicker/value": {
+        "description": "Binding value",
+        "type": "date"
+    },
+    "b-clockpicker/type": {
+        "description": "Type (color) of the button when checked",
+        "type": "string"
+    },
+    "b-clockpicker/hour-format": {
+        "description": "Hour format for input and display",
+        "options": ["12", "24"]
+    },
+    "b-clockpicker/time-formatter": {
+        "description": "Function to format time (Date type) to a string for display in the input",
+        "type": "function"
+    },
+    "b-clockpicker/time-parser": {
+        "description": "Function to parse string to a time (Date type) for set a time from the input to the component",
+        "type": "function"
+    },
+    "b-clockpicker/min-time": {
+        "description": "Earliest time available for selection",
+        "type": "date"
+    },
+    "b-clockpicker/max-time": {
+        "description": "Latest time available for selection",
+        "type": "date"
+    },
+    "b-clockpicker/size": {
+        "description": "Vertical size of input, optional",
+        "options": ["is-small", "is-medium", "is-large"]
+    },
+    "b-clockpicker/inline": {
+        "description": "Clockpicker is shown inline, input is removed",
+        "type": "boolean"
+    },
+    "b-clockpicker/editable": {
+        "description": "Enable input/typing. Note that you might have to set a custom time parser",
+        "type": "boolean"
+    },
+    "b-clockpicker/disabled": {
+        "description": "Disables the input field and/or picker",
+        "type": "boolean"
+    },
+    "b-clockpicker/loading": {
+        "description": "Add the loading state to the input",
+        "type": "boolean"
+    },
+    "b-clockpicker/icon": {
+        "description": "Icon name to be added",
+        "type": "boolean"
+    },
+    "b-clockpicker/icon-pack": {
+        "description": "Icon pack to use",
+        "options": ["mdi", "fa", "fas", "far", "fad", "fal"]
+    },
+    "b-clockpicker/unselectable-times": {
+        "description": "Array of unselectable times (Date object)",
+        "type": "array"
+    },
+    "b-clockpicker/mobile-native": {
+        "description": "Enable native timepicker on mobile",
+        "type": "boolean"
+    },
+    "b-clockpicker/position": {
+        "description": "Optional, position of the timepicker relative to the input",
+        "options": ["is-top-right", "is-top-left", "is-bottom-left"]
+    },
+    "b-clockpicker/auto-switch": {
+        "description": "Automatically switches between hour and minutes selection after click",
+        "type": "boolean"
+    },
+    "b-clockpicker/open-on-focus": {
+        "description": "Open clockpicker on input focus",
+        "type": "boolean"
+    },
+    "b-clockpicker/hours-label": {
+        "description": "Label to show on hour button",
+        "type": "string"
+    },
+    "b-clockpicker/minutes-label": {
+        "description": "Label to show on minutes button",
+        "type": "string"
+    },
+    "b-clockpicker/append-to-body": {
+        "description": "Append clockpicker calendar to body",
+        "type": "boolean"
+    },
     "b-collapse/open": {
         "description": "Whether collapse is open or not, use the .sync modifier to make it two-way binding",
         "type": "boolean"
