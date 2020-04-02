@@ -161,7 +161,9 @@
     "b-collapse": {
         "attributes": [
             "open",
-            "animation"
+            "animation",
+            "aria-id",
+            "position"
         ],
         "subtags": [],
         "description": "Buefy component <b-collapse>"

@@ -455,6 +455,14 @@
         "description": "Custom animation (transition name)",
         "type": "string"
     },
+    "b-collapse/aria-id": {
+        "description": "Id for the container div. Should be used with aria-controls on trigger for better accessibility.",
+        "type": "string"
+    },
+    "b-collapse/position": {
+        "description": "Trigger position",
+        "options": ["is-top", "is-bottom"]
+    },
     "b-datepicker/value": {
         "description": "Binding value",
         "type": "date"
