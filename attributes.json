@@ -307,6 +307,10 @@
         "description": "Same as native value",
         "type": "any"
     },
+    "b-checkbox/indeterminate": {
+        "description": "Same as native indeterminate",
+        "type": "boolean"
+    },
     "b-checkbox/true-value": {
         "description": "Overrides the returned value when it's checked",
         "type": "any"
@@ -328,8 +332,8 @@
         "type": "string"
     },
     "b-checkbox/size": {
-        "description": "Size  of the control, optional",
-        "type": "string"
+        "description": "Size of the control, optional",
+        "options": ["is-small", "is-medium", "is-large"]
     },
     "b-checkbox/type": {
         "description": "Type (color) of the control, optional",
@@ -358,6 +362,10 @@
     "b-checkbox-button/size": {
         "description": "Size of the button, optional",
         "type": "string"
+    },
+    "b-checkbox-button/expanded": {
+        "description": "Checkbox button will be expanded (full-width)",
+        "type": "boolean"
     },
     "b-clockpicker/value": {
         "description": "Binding value",

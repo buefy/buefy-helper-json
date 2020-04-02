@@ -107,6 +107,7 @@
         "attributes": [
             "value",
             "native-value",
+            "indeterminate",
             "true-value",
             "false-value",
             "disabled",
@@ -125,7 +126,8 @@
             "type",
             "disabled",
             "name",
-            "size"
+            "size",
+            "expanded"
         ],
         "subtags": "checkbox-button",
         "description": "Buefy component <b-checkbox-button>"
@@ -285,7 +287,7 @@
             "addons",
             "horizontal"
         ],
-        "subtags": [],
+        "subtags": ["b-checkbox-button"],
         "description": "Buefy component <b-field>"
     },
     "b-icon": {
