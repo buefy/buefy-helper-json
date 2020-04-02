@@ -1733,7 +1733,7 @@
     },
     "b-tag/size": {
         "description": "Size of the tab, optional",
-        "type": "string"
+        "options": ["is-medium", "is-large"]
     },
     "b-tag/rounded": {
         "description": "Tag border rounded",
@@ -1758,6 +1758,10 @@
     "b-tag/disabled": {
         "description": "Disable delete button",
         "type": "boolean"
+    },
+    "b-tag/aria-close-label": {
+        "description": "Accessibility label for the close button",
+        "type": "string"
     },
     "b-taglist/attached": {
         "description": "Tabs inside are attached together",

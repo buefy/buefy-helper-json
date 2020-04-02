@@ -659,7 +659,8 @@
             "attached",
             "ellipsis",
             "tabstop",
-            "disabled"
+            "disabled",
+            "aria-close-label"
         ],
         "subtags": [],
         "description": "Buefy component <b-tag>"
@@ -668,7 +669,7 @@
         "attributes": [
             "attached"
         ],
-        "subtags": [],
+        "subtags": ["b-tag"],
         "description": "Buefy component <b-taglist>"
     },
     "b-taginput": {
