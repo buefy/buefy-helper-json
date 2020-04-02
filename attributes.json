@@ -77,7 +77,7 @@
     },
     "b-button/size": {
         "description": "Vertical size of button, optional",
-        "type": "string"
+        "options": ["is-small", "is-medium", "is-large"]
     },
     "b-button/loading": {
         "description": "Add the loading state to the button",
@@ -91,6 +91,10 @@
         "description": "Outlined style",
         "type": "boolean"
     },
+    "b-button/expanded": {
+        "description": "Button will be expanded (full-width)",
+        "type": "boolean"
+    },
     "b-button/icon-left": {
         "description": "Icon name to show on the left",
         "type": "string"
@@ -101,7 +105,7 @@
     },
     "b-button/icon-pack": {
         "description": "Icon pack to use",
-        "type": "string"
+        "options": ["mdi", "fa", "fas", "far", "fad", "fal"]
     },
     "b-button/native-type": {
         "description": "Button type, like native",
