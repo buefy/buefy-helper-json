@@ -395,11 +395,16 @@
             "events",
             "content",
             "width",
+            "full-screen",
             "has-modal-card",
             "animation",
-            "canCancel",
-            "onCancel",
-            "scroll"
+            "can-cancel",
+            "on-cancel",
+            "scroll",
+            "trap-focus",
+            "custom-class",
+            "aria-role",
+            "aria-modal"
         ],
         "subtags": [],
         "description": "Buefy component <b-modal>"

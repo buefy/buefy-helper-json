@@ -1048,11 +1048,11 @@
         "type": "boolean"
     },
     "b-modal/component": {
-        "description": "Component to be injected, used to open a component modal programmatically.\r\n                    Close modal within the component by emitting a 'close' event — this.$emit('close')",
+        "description": "Component to be injected, used to open a component modal programmatically. Close modal within the component by emitting a 'close' event — this.$emit('close')",
         "type": "object|function"
     },
     "b-modal/parent": {
-        "description": "Parent component of the modal, <strong>required</strong> if using component",
+        "description": "Parent component of the modal, required if using component",
         "type": "vue"
     },
     "b-modal/props": {
@@ -1068,8 +1068,12 @@
         "type": "string"
     },
     "b-modal/width": {
-        "description": "Width of the Modal, maximum of 960",
+        "description": "Width of the Modal",
         "type": "number|string"
+    },
+    "b-modal/full-screen": {
+        "description": "Display modal as full screen",
+        "type": "boolean"
     },
     "b-modal/has-modal-card": {
         "description": "If your modal content has a .modal-card as root, add this prop or the card might break on mobile",
@@ -1079,17 +1083,33 @@
         "description": "Custom animation (transition name)",
         "type": "string"
     },
-    "b-modal/canCancel": {
+    "b-modal/can-cancel": {
         "description": "Can close Modal by clicking 'X', pressing escape or clicking outside",
         "type": "boolean|array"
     },
-    "b-modal/onCancel": {
+    "b-modal/on-cancel": {
         "description": "Callback function to call after user canceled (clicked 'X' / pressed escape / clicked outside)",
         "type": "function"
     },
     "b-modal/scroll": {
-        "description": "clip to remove the &lt;body&gt; scrollbar, keep to have a non scrollable scrollbar\r\n                    to avoid shifting background, but will set &lt;body&gt; to position fixed, might break some layouts",
+        "description": "clip to remove the <body> scrollbar, keep to have a non scrollable scrollbar to avoid shifting background, but will set <body> to position fixed, might break some layouts",
+        "options": ["clip", "keep"]
+    },
+    "b-modal/trap-focus": {
+        "description": "Trap focus inside the modal.",
+        "type": "boolean"
+    },
+    "b-modal/custom-class": {
+        "description": "CSS classes to be applied on modal",
         "type": "string"
+    },
+    "b-modal/aria-role": {
+        "description": "Role attribute to be passed to modal container for better accessibility.",
+        "options": ["dialog", "alertdialog"]
+    },
+    "b-modal/aria-modal": {
+        "description": "Improve accessiblity when enabled.",
+        "type": "boolean"
     },
     "b-navbar/transparent": {
         "description": "Remove any hover or active background from the navbar items",
