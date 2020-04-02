@@ -288,7 +288,7 @@
             "horizontal",
             "label-position"
         ],
-        "subtags": ["b-checkbox-button", "b-input", "b-radio-button"],
+        "subtags": ["b-checkbox-button", "b-input", "b-radio-button", "b-select"],
         "description": "Buefy component <b-field>"
     },
     "b-icon": {

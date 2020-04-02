@@ -1341,7 +1341,7 @@
     },
     "b-select/size": {
         "description": "Size of the select, optional",
-        "type": "string"
+        "options": ["is-small", "is-medium", "is-large"]
     },
     "b-select/placeholder": {
         "description": "Text when nothing is selected",
@@ -1361,7 +1361,7 @@
     },
     "b-select/icon-pack": {
         "description": "Icon pack to use",
-        "type": "string"
+        "options": ["mdi", "fa", "fas", "far", "fad", "fal"]
     },
     "b-select/native-size": {
         "description": "Same as native size",
