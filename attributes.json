@@ -423,6 +423,82 @@
         "description": "Accessibility label for the previous month button.",
         "type": "string"
     },
+    "b-datetimepicker/value": {
+        "description": "Binding value",
+        "type": "date"
+    },
+    "b-datetimepicker/datetime-formatter": {
+        "description": "Function to format datetime (Date type) to a string for display in the input",
+        "type": "function"
+    },
+    "b-datetimepicker/datetime-parser": {
+        "description": "Function to parse string to a datetime (Date type) for set a datetime from the input to the component",
+        "type": "function"
+    },
+    "b-datetimepicker/min-datetime": {
+        "description": "Earliest datetime available for selection",
+        "type": "date"
+    },
+    "b-datetimepicker/max-datetime": {
+        "description": "Latest datetime available for selection",
+        "type": "date"
+    },
+    "b-datetimepicker/size": {
+        "description": "Vertical size of input and picker, optional",
+        "options": ["is-small", "is-medium", "is-large"]
+    },
+    "b-datetimepicker/inline": {
+        "description": "Datimepicker is shown inline, input is removed",
+        "type": "boolean"
+    },
+    "b-datetimepicker/editable": {
+        "description": "Enable input/typing. Note that you might have to set a custom time parser",
+        "type": "boolean"
+    },
+    "b-datetimepicker/loading": {
+        "description": "Add the loading state to the input",
+        "type": "boolean"
+    },
+    "b-datetimepicker/icon": {
+        "description": "Icon name to be added",
+        "type": "string"
+    },
+    "b-datetimepicker/icon-pack": {
+        "description": "Icon pack to use",
+        "options": ["mdi", "fa", "fas", "far", "fad", "fal"]
+    },
+    "b-datetimepicker/mobile-native": {
+        "description": "Enable native datetimepicker on mobile",
+        "type": "boolean"
+    },
+    "b-datetimepicker/position": {
+        "description": "Optional, position of the timepicker relative to the input",
+        "options": ["is-top-right", "is-top-left", "is-bottom-left"]
+    },
+    "b-datetimepicker/open-on-focus": {
+        "description": "Open timepicker on input focus",
+        "type": "boolean"
+    },
+    "b-datetimepicker/datepicker": {
+        "description": "Any datepicker props",
+        "type": "object"
+    },
+    "b-datetimepicker/timepicker": {
+        "description": "Any timepicker props",
+        "type": "object"
+    },
+    "b-datetimepicker/focusable": {
+        "description": "Datetimepicker container can be focused",
+        "type": "boolean"
+    },
+    "b-datetimepicker/horizontal-time-picker": {
+        "description": "Changes the time picker layout to a horizontal position",
+        "type": "boolean"
+    },
+    "b-datetimepicker/append-to-body": {
+        "description": "Append datetimepicker calendar to body",
+        "type": "boolean"
+    },
     "b-dropdown/value": {
         "description": "Binding value",
         "type": "any"

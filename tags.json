@@ -147,6 +147,31 @@
         "subtags": [],
         "description": "Buefy component <b-datepicker>"
     },
+    "b-datetimepicker": {
+        "attributes": [
+            "value",
+            "datetime-formatter",
+            "datetime-parser",
+            "min-datetime",
+            "max-datetime",
+            "size",
+            "inline",
+            "editable",
+            "loading",
+            "icon",
+            "icon-pack",
+            "mobile-native",
+            "position",
+            "open-on-focus",
+            "datepicker",
+            "timepicker",
+            "focusable",
+            "horizontal-time-picker",
+            "append-to-body"
+        ],
+        "subtags": [],
+        "description": "Buefy component <b-datetimepicker>"
+    },
     "b-dropdown": {
         "attributes": [
             "value",
