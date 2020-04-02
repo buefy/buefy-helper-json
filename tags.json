@@ -525,6 +525,20 @@
         "subtags": [],
         "description": "Buefy component <b-panel>"
     },
+    "b-progress": {
+        "attributes": [
+            "type",
+            "size",
+            "value",
+            "max",
+            "show-value",
+            "format",
+            "precision",
+            "keep-trailing-zeroes"
+        ],
+        "subtags": [],
+        "description": "Buefy component <b-progress>"
+    },
     "b-radio": {
         "attributes": [
             "value",

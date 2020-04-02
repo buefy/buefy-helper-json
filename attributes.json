@@ -1395,6 +1395,38 @@
         "description": "Icon pack to use",
         "type": "string"
     },
+    "b-progress/type": {
+        "description": "Type (color) of the progress bar, optional",
+        "type": "string"
+    },
+    "b-progress/size": {
+        "description": "Size of the progress bar, optional",
+        "options": ["is-small", "is-medium", "is-large"]
+    },
+    "b-progress/value": {
+        "description": "The progress value, progress will be indeterminate if undefined.",
+        "type": "number"
+    },
+    "b-progress/max": {
+        "description": "The maximum value for the progress bar.",
+        "type": "number"
+    },
+    "b-progress/show-value": {
+        "description": "If the value should be displayed inside the progress bar.",
+        "type": "boolean"
+    },
+    "b-progress/format": {
+        "description": "Which format should be used to display the value (if show-value is true). The value will be displayed as-is if using raw. The percent using value and max will be calculated and displayed if using percent",
+        "options": ["raw", "percent"]
+    },
+    "b-progress/precision": {
+        "description": "How many decimals should be displayed.",
+        "type": "number"
+    },
+    "b-progress/keep-trailing-zeroes": {
+        "description": "Truncate or not the trailing zeroes",
+        "type": "boolean"
+    },
     "b-radio/value": {
         "description": "Binding value",
         "type": "any"
