@@ -285,7 +285,8 @@
             "group-multiline",
             "position",
             "addons",
-            "horizontal"
+            "horizontal",
+            "label-position"
         ],
         "subtags": ["b-checkbox-button"],
         "description": "Buefy component <b-field>"

@@ -804,8 +804,8 @@
         "type": "string"
     },
     "b-field/message": {
-        "description": "Help message text",
-        "type": "string|array<string>"
+        "description": "Help message text (can contain HTML).",
+        "type": "string|object|array<string>|array<object>"
     },
     "b-field/grouped": {
         "description": "Direct child components/elements of Field will be grouped horizontally (see which ones at the top of the page)",
@@ -826,6 +826,10 @@
     "b-field/horizontal": {
         "description": "Group label and control on the same line for horizontal forms",
         "type": "boolean"
+    },
+    "b-field/label-position": {
+        "description": "Position of label",
+        "options": ["inside", "on-border"]
     },
     "b-icon/type": {
         "description": "Type (color) of the icon, optional",
