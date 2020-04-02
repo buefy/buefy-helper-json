@@ -434,7 +434,9 @@
             "false-value",
             "disabled",
             "name",
-            "size"
+            "size",
+            "rounded",
+            "outlined"
         ],
         "subtags": [],
         "description": "Buefy component <b-switch>"

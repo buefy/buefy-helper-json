@@ -1116,8 +1116,16 @@
         "type": "string"
     },
     "b-switch/size": {
-        "description": "Size  of the control, optional",
-        "type": "string"
+        "description": "Size of the control, optional",
+        "options": ["is-small", "is-medium", "is-large"]
+    },
+    "b-switch/rounded": {
+        "description": "Rounded style",
+        "type": "boolean"
+    },
+    "b-switch/outlined": {
+        "description": "Outlined style",
+        "type": "boolean"
     },
     "b-table/data": {
         "description": "Table data",
