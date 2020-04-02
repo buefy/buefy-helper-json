@@ -1387,13 +1387,17 @@
         "description": "Limits the number of tags, plus tag counter",
         "type": "string|number"
     },
+    "b-taginput/has-counter": {
+        "description": "Show counter when maxlength or maxtags props are passed",
+        "type": "boolean"
+    },
     "b-taginput/type": {
         "description": "Type (color) of the tags, optional",
         "type": "string"
     },
     "b-taginput/size": {
         "description": "Tag and input size, optional",
-        "type": "string"
+        "options": ["is-small", "is-medium", "is-large"]
     },
     "b-taginput/rounded": {
         "description": "Makes the tags rounded, optional",
@@ -1407,12 +1411,16 @@
         "description": "Adds ellipsis on tags to not overflow the text",
         "type": "boolean"
     },
+    "b-taginput/closable": {
+        "description": "Add close/delete button to the tag",
+        "type": "boolean"
+    },
     "b-taginput/field": {
         "description": "Property of the object (if data is array of objects) to use as display text",
         "type": "string"
     },
     "b-taginput/autocomplete": {
-        "description": "Add autocomplete feature",
+        "description": "Add autocomplete feature (if true, any Autocomplete props may be used too)",
         "type": "boolean"
     },
     "b-taginput/allow-new": {
@@ -1424,7 +1432,7 @@
         "type": "array"
     },
     "b-taginput/confirm-key-codes": {
-        "description": "Array of key codes which will add a tag when typing (default comma and enter)",
+        "description": "Array of key codes which will add a tag when typing (default comma, enter and tab)",
         "type": "array"
     },
     "b-taginput/on-paste-separators": {
@@ -1437,6 +1445,18 @@
     },
     "b-taginput/allow-duplicates": {
         "description": "Allows adding the same tag multiple times",
+        "type": "boolean"
+    },
+    "b-taginput/readonly": {
+        "description": "Disable input/typing",
+        "type": "boolean"
+    },
+    "b-taginput/check-infinite-scroll": {
+        "description": "Makes the autocomplete component check if list reached scroll end and emit infinite-scroll event.",
+        "type": "boolean"
+    },
+    "b-taginput/append-to-body": {
+        "description": "Append autocomplete content to body",
         "type": "boolean"
     },
     "b-taginput/data": {

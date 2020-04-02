@@ -544,11 +544,13 @@
             "value",
             "maxlength",
             "maxtags",
+            "has-counter",
             "type",
             "size",
             "rounded",
             "attached",
             "ellipsis",
+            "closable",
             "field",
             "autocomplete",
             "allow-new",
@@ -556,7 +558,10 @@
             "confirm-key-codes",
             "on-paste-separators",
             "before-adding",
-            "allow-duplicates"
+            "allow-duplicates",
+            "readonly",
+            "check-infinite-scroll",
+            "append-to-body"
         ],
         "subtags": [],
         "description": "Buefy component <b-taginput>"
