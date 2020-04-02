@@ -344,9 +344,11 @@
             "duration",
             "icon-pack",
             "has-icon",
+            "icon",
             "size",
             "icon-size",
-            "title"
+            "title",
+            "aria-close-label"
         ],
         "subtags": [],
         "description": "Buefy component <b-message>"

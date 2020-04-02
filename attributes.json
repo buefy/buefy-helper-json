@@ -957,22 +957,30 @@
     },
     "b-message/icon-pack": {
         "description": "Icon pack to use",
-        "type": "string"
+        "options": ["mdi", "fa", "fas", "far", "fad", "fal"]
     },
     "b-message/has-icon": {
         "description": "Adds an icon on the left side depending on the type",
         "type": "boolean"
     },
+    "b-message/icon": {
+        "description": "Icon name to use with has-icon",
+        "type": "string"
+    },
     "b-message/size": {
         "description": "Size of the control, optional",
-        "type": "string"
+        "options": ["is-small", "is-medium", "is-large"]
     },
     "b-message/icon-size": {
         "description": "Size of the icon, optional",
-        "type": "string"
+        "options": ["is-small", "is-medium", "is-large"]
     },
     "b-message/title": {
         "description": "Message title",
+        "type": "string"
+    },
+    "b-message/aria-close-label": {
+        "description": "Label for the close button, to be read by accessibility screenreaders.",
         "type": "string"
     },
     "b-modal/active": {
