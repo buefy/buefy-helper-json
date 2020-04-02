@@ -1639,6 +1639,74 @@
         "description": "Increase the clickable area",
         "type": "boolean"
     },
+    "b-steps/value": {
+        "description": "Binding value, step index",
+        "type": "number"
+    },
+    "b-steps/animated": {
+        "description": "Steps have slide animation",
+        "type": "boolean"
+    },
+    "b-steps/type": {
+        "description": "Default Type/Style for the steps, optional",
+        "type": "string"
+    },
+    "b-steps/size": {
+        "description": "Size of the step, optional",
+        "options": ["is-small", "is-medium", "is-large"]
+    },
+    "b-steps/destroy-on-hide": {
+        "description": "Destroy stepitem on hide",
+        "type": "boolean"
+    },
+    "b-steps/icon-pack": {
+        "description": "Icon pack to use for the navigation",
+        "options": ["mdi", "fa", "fas", "far", "fad", "fal"]
+    },
+    "b-steps/icon-prev": {
+        "description": "Icon to use for navigation button",
+        "type": "string"
+    },
+    "b-steps/icon-next": {
+        "description": "Icon to use for navigation button",
+        "type": "string"
+    },
+    "b-steps/has-navigation": {
+        "description": "Next and previous buttons below the component. You can use this property if you want to use your own custom navigation items.",
+        "type": "boolean"
+    },
+    "b-steps/aria-page-label": {
+        "description": "Accessibility label for the page link. If passed, this text will be prepended to the number of the page.",
+        "type": "string"
+    },
+    "b-steps/aria-current-label": {
+        "description": "Accessibility label for the current page link. If passed, this text will be prepended to the current page.",
+        "type": "string"
+    },
+    "b-step-item/label": {
+        "description": "Step label",
+        "type": "string"
+    },
+    "b-step-item/type": {
+        "description": "Default Type/Style for the step, optional This will override parent type. Could be used to set a completed step to is-success for example",
+        "type": "string"
+    },
+    "b-step-item/icon": {
+        "description": "Icon name",
+        "type": "string"
+    },
+    "b-step-item/icon-pack": {
+        "description": "Icon pack to use",
+        "options": ["mdi", "fa", "fas", "far", "fad", "fal"]
+    },
+    "b-step-item/clickable": {
+        "description": "Item can be used directly to navigate. If undefined, previous steps are clickable while the others are not.",
+        "type": "boolean"
+    },
+    "b-step-item/visible": {
+        "description": "Item is visible",
+        "type": "boolean"
+    },
     "b-switch/type": {
         "description": "Type (color) of the switch, optional",
         "type": "string"

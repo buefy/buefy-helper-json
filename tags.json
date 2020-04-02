@@ -622,6 +622,35 @@
         "subtags": [],
         "description": "Buefy component <b-slider>"
     },
+    "b-steps": {
+        "attributes": [
+            "value",
+            "animated",
+            "type",
+            "size",
+            "destroy-on-hide",
+            "icon-pack",
+            "icon-prev",
+            "icon-next",
+            "has-navigation",
+            "aria-page-label",
+            "aria-current-label"
+        ],
+        "subtags": ["b-step-item"],
+        "description": "Buefy component <b-steps>"
+    },
+    "b-step-item": {
+        "attributes": [
+            "label",
+            "type",
+            "icon",
+            "icon-pack",
+            "clickable",
+            "visible"
+        ],
+        "subtags": [],
+        "description": "Buefy component <b-step-item>"
+    },
     "b-switch": {
         "attributes": [
             "type",
