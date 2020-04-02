@@ -738,7 +738,8 @@
             "square",
             "dashed",
             "multilined",
-            "size"
+            "size",
+            "delay"
         ],
         "subtags": [],
         "description": "Buefy component <b-tooltip>"

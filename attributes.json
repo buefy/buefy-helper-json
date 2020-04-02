@@ -1985,7 +1985,7 @@
     },
     "b-tooltip/position": {
         "description": "Tooltip position in relation to the element",
-        "type": "string"
+        "options": ["is-top", "is-bottom", "is-left", "is-right"]
     },
     "b-tooltip/always": {
         "description": "Tooltip will be always active",
@@ -2009,7 +2009,11 @@
     },
     "b-tooltip/size": {
         "description": "Tooltip multiline size (only works for multilined tooltips)",
-        "type": "string"
+        "options": ["is-small", "is-medium", "is-large"]
+    },
+    "b-tooltip/delay": {
+        "description": "Tooltip delay before it appears (number in ms)",
+        "type": "number"
     },
     "b-upload/value": {
         "description": "Binding value",
