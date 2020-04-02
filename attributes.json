@@ -1196,20 +1196,52 @@
         "type": "boolean"
     },
     "b-notification/auto-close": {
-        "description": "Hide notification after duration",
+        "description": "Hide notification after duration only not programmatic",
         "type": "boolean"
     },
     "b-notification/duration": {
         "description": "Visibility duration in miliseconds",
         "type": "number"
     },
+    "b-notification/animation": {
+        "description": "Custom animation (transition name)",
+        "type": "string"
+    },
     "b-notification/icon-pack": {
         "description": "Icon pack to use",
-        "type": "string"
+        "options": ["mdi", "fa", "fas", "far", "fad", "fal"]
     },
     "b-notification/has-icon": {
         "description": "Adds an icon on the left side depending on the type",
         "type": "boolean"
+    },
+    "b-notification/icon": {
+        "description": "Icon name to use with has-icon",
+        "type": "string"
+    },
+    "b-notification/aria-close-label": {
+        "description": "Label for the close button, to be read by accessibility screenreaders.",
+        "type": "string"
+    },
+    "b-notification/message": {
+        "description": "Message text (can contain HTML).",
+        "type": "string"
+    },
+    "b-notification/position": {
+        "description": "Which position the notification will appear when programmatically",
+        "options": ["is-top-right", "is-top", "is-top-left", "is-bottom-right", "is-bottom", "is-bottom-left"]
+    },
+    "b-notification/queue": {
+        "description": "If should queue with others notices (snackbar/toast/notification)",
+        "type": "boolean"
+    },
+    "b-notification/indefinite": {
+        "description": "Show the Notification indefinitely until it is dismissed when programmatically",
+        "type": "boolean"
+    },
+    "b-notification/container": {
+        "description": "DOM element the toast will be created on. Note that this also changes the position of the toast from fixed to absolute. Meaning that the container should be fixed.",
+        "type": "string"
     },
     "b-numberinput/value": {
         "description": "Binding value",

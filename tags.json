@@ -449,8 +449,16 @@
             "closable",
             "auto-close",
             "duration",
+            "animation",
             "icon-pack",
-            "has-icon"
+            "has-icon",
+            "icon",
+            "aria-close-label",
+            "message",
+            "position",
+            "queue",
+            "indefinite",
+            "container"
         ],
         "subtags": [],
         "description": "Buefy component <b-notification>"
