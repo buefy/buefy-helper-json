@@ -1123,6 +1123,58 @@
         "description": "Adds an icon on the left side depending on the type",
         "type": "boolean"
     },
+    "b-numberinput/value": {
+        "description": "Binding value",
+        "type": "string|number"
+    },
+    "b-numberinput/type": {
+        "description": "Type (color) of the control, optional",
+        "type": "string"
+    },
+    "b-numberinput/size": {
+        "description": "Vertical size of input, optional",
+        "options": ["is-small", "is-medium", "is-large"]
+    },
+    "b-numberinput/expanded": {
+        "description": "Makes input full width when inside a grouped or addon field",
+        "type": "boolean"
+    },
+    "b-numberinput/loading": {
+        "description": "Add the loading state to the input",
+        "type": "boolean"
+    },
+    "b-numberinput/editable": {
+        "description": "Editable input",
+        "type": "boolean"
+    },
+    "b-numberinput/icon-pack": {
+        "description": "Icon pack to use",
+        "options": ["mdi", "fa", "fas", "far", "fab", "fad", "fal"]
+    },
+    "b-numberinput/min": {
+        "description": "Minimum allowed value",
+        "type": "number|string"
+    },
+    "b-numberinput/max": {
+        "description": "Maximum allowed value",
+        "type": "number|string"
+    },
+    "b-numberinput/step": {
+        "description": "Incremental number step",
+        "type": "number|string"
+    },
+    "b-numberinput/controls-rounded": {
+        "description": "Show rounded controls",
+        "type": "boolean"
+    },
+    "b-numberinput/controls": {
+        "description": "Showing controls(+/-)",
+        "type": "boolean"
+    },
+    "b-numberinput/controls-position": {
+        "description": "Position of controls",
+        "options": ["compact"]
+    },
     "b-pagination/total": {
         "description": "Total count of items",
         "type": "number"

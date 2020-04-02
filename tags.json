@@ -415,6 +415,25 @@
         "subtags": [],
         "description": "Buefy component <b-notification>"
     },
+    "b-numberinput": {
+        "attributes": [
+            "value",
+            "type",
+            "size",
+            "expanded",
+            "loading",
+            "editable",
+            "icon-pack",
+            "min",
+            "max",
+            "step",
+            "controls-rounded",
+            "controls",
+            "controls-position"
+        ],
+        "subtags": [],
+        "description": "Buefy component <b-numberinput>"
+    },
     "b-pagination": {
         "attributes": [
             "total",
