@@ -1252,8 +1252,8 @@
         "type": "string"
     },
     "b-radio/size": {
-        "description": "Size  of the control, optional",
-        "type": "string"
+        "description": "Size of the control, optional",
+        "options": ["is-small", "is-medium", "is-large"]
     },
     "b-radio/type": {
         "description": "Type (color) of the control, optional",
@@ -1268,7 +1268,7 @@
         "type": "any"
     },
     "b-radio-button/type": {
-        "description": "Type (color) of the button <strong>when checked</strong>",
+        "description": "Type (color) of the button when checked",
         "type": "string"
     },
     "b-radio-button/disabled": {
@@ -1281,7 +1281,11 @@
     },
     "b-radio-button/size": {
         "description": "Size of the button, optional",
-        "type": "string"
+        "options": ["is-small", "is-medium", "is-large"]
+    },
+    "b-radio-button/expanded": {
+        "description": "Radio button will be expanded (full-width)",
+        "type": "boolean"
     },
     "b-select/value": {
         "description": "Binding value",
