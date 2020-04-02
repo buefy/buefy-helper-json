@@ -837,7 +837,7 @@
     },
     "b-icon/pack": {
         "description": "Icon pack to use",
-        "type": "string"
+        "options": ["mdi", "fa", "fas", "far", "fad", "fal"]
     },
     "b-icon/icon": {
         "description": "Icon name",
@@ -845,7 +845,7 @@
     },
     "b-icon/size": {
         "description": "Icon size, optional",
-        "type": "string"
+        "options": ["is-small", "is-medium", "is-large"]
     },
     "b-icon/custom-size": {
         "description": "Overrides icon font size, optional",
