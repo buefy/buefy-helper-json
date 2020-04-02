@@ -512,19 +512,6 @@
         "subtags": [],
         "description": "Buefy component <b-pagination-button>"
     },
-    "b-panel": {
-        "attributes": [
-            "collapsible",
-            "open",
-            "has-custom-template",
-            "header",
-            "content",
-            "animation",
-            "icon-pack"
-        ],
-        "subtags": [],
-        "description": "Buefy component <b-panel>"
-    },
     "b-progress": {
         "attributes": [
             "type",

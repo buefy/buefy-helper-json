@@ -1367,34 +1367,6 @@
         "description": "Button tag name",
         "type": "string"
     },
-    "b-panel/collapsible": {
-        "description": "Panel will be collapsible",
-        "type": "boolean"
-    },
-    "b-panel/open": {
-        "description": "Whether panel is open or not, use the .sync modifier to make it two-way binding",
-        "type": "boolean"
-    },
-    "b-panel/has-custom-template": {
-        "description": "If your panel content has custom template (see Bulma docs), add this prop",
-        "type": "string"
-    },
-    "b-panel/header": {
-        "description": "Simple text or HTML content",
-        "type": "string"
-    },
-    "b-panel/content": {
-        "description": "Simple text or HTML content",
-        "type": "string"
-    },
-    "b-panel/animation": {
-        "description": "Custom animation (transition name)",
-        "type": "string"
-    },
-    "b-panel/icon-pack": {
-        "description": "Icon pack to use",
-        "type": "string"
-    },
     "b-progress/type": {
         "description": "Type (color) of the progress bar, optional",
         "type": "string"
