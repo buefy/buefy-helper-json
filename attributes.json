@@ -1885,7 +1885,7 @@
     },
     "b-timepicker/hour-format": {
         "description": "Hour format for input and display",
-        "type": "string"
+        "options": ["12", "24"]
     },
     "b-timepicker/increment-minutes": {
         "description": "Step minutes for select component",
@@ -1909,14 +1909,14 @@
     },
     "b-timepicker/size": {
         "description": "Vertical size of input and picker, optional",
-        "type": "string"
+        "options": ["is-small", "is-medium", "is-large"]
     },
     "b-timepicker/inline": {
-        "description": "Datepicker is shown inline, input is removed",
+        "description": "Timepicker is shown inline, input is removed",
         "type": "boolean"
     },
-    "b-timepicker/readonly": {
-        "description": "Does not allow to type a time, set to false to enable input. <b>Note that you might have to set a custom time parser</b>",
+    "b-timepicker/editable": {
+        "description": "Enable input/typing. Note that you might have to set a custom time parser",
         "type": "boolean"
     },
     "b-timepicker/loading": {
@@ -1929,7 +1929,7 @@
     },
     "b-timepicker/icon-pack": {
         "description": "Icon pack to use",
-        "type": "string"
+        "options": ["mdi", "fa", "fas", "far", "fad", "fal"]
     },
     "b-timepicker/unselectable-times": {
         "description": "Array of unselectable times (Date object)",
@@ -1942,6 +1942,34 @@
     "b-timepicker/position": {
         "description": "Optional, position of the timepicker relative to the input",
         "type": "string"
+    },
+    "b-timepicker/open-on-focus": {
+        "description": "Open timepicker on input focus",
+        "type": "boolean"
+    },
+    "b-timepicker/enable-seconds": {
+        "description": "Show seconds picker",
+        "type": "boolean"
+    },
+    "b-timepicker/default-minutes": {
+        "description": "Default value when hours change",
+        "type": "number"
+    },
+    "b-timepicker/default-seconds": {
+        "description": "Default value when hours or minutes change",
+        "type": "number"
+    },
+    "b-timepicker/time-creator": {
+        "description": "Function used internally to create a new Date instance",
+        "type": "function"
+    },
+    "b-timepicker/focusable": {
+        "description": "Timepicker container can be focused",
+        "type": "boolean"
+    },
+    "b-timepicker/append-to-body": {
+        "description": "Append timepicker calendar to body",
+        "type": "boolean"
     },
     "b-tooltip/type": {
         "description": "Type (color) of the tooltip",

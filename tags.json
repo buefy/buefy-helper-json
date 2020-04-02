@@ -709,13 +709,20 @@
             "max-time",
             "size",
             "inline",
-            "readonly",
+            "editable",
             "loading",
             "icon",
             "icon-pack",
             "unselectable-times",
             "mobile-native",
-            "position"
+            "position",
+            "open-on-focus",
+            "enable-seconds",
+            "default-minutes",
+            "default-seconds",
+            "time-creator",
+            "focusable",
+            "append-to-body"
         ],
         "subtags": [],
         "description": "Buefy component <b-timepicker>"
