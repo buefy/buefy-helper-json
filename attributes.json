@@ -865,7 +865,7 @@
     },
     "b-input/size": {
         "description": "Vertical size of input, optional",
-        "type": "string"
+        "options": ["is-small", "is-medium", "is-large"]
     },
     "b-input/expanded": {
         "description": "Makes input full width when inside a grouped or addon field",
@@ -879,13 +879,25 @@
         "description": "Add the loading state to the input",
         "type": "boolean"
     },
+    "b-input/icon-pack": {
+        "description": "Icon pack to use",
+        "options": ["mdi", "fa", "fas", "far", "fad", "fal"]
+    },
     "b-input/icon": {
         "description": "Icon name to be added",
         "type": "string"
     },
-    "b-input/icon-pack": {
-        "description": "Icon pack to use",
+    "b-input/icon-right": {
+        "description": "Icon name to be added on the right side",
         "type": "string"
+    },
+    "b-input/icon-clickable": {
+        "description": "Make the icon clickable",
+        "type": "boolean"
+    },
+    "b-input/icon-right-clickable": {
+        "description": "Make the icon right clickable",
+        "type": "boolean"
     },
     "b-input/maxlength": {
         "description": "Same as native maxlength, plus character counter",
@@ -894,6 +906,14 @@
     "b-input/has-counter": {
         "description": "Show character counter when maxlength prop is passed",
         "type": "boolean"
+    },
+    "b-input/custom-class": {
+        "description": "CSS classes to be applied on input",
+        "type": "string"
+    },
+    "b-input/validation-message": {
+        "description": "The message which is shown when a validation error occurs",
+        "type": "string"
     },
     "b-loading/active": {
         "description": "Whether modal is active or not, use the .sync modifier to make it two-way binding",

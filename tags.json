@@ -288,7 +288,7 @@
             "horizontal",
             "label-position"
         ],
-        "subtags": ["b-checkbox-button"],
+        "subtags": ["b-checkbox-button", "b-input"],
         "description": "Buefy component <b-field>"
     },
     "b-icon": {
@@ -311,10 +311,15 @@
             "expanded",
             "password-reveal",
             "loading",
-            "icon",
             "icon-pack",
+            "icon",
+            "icon-right",
+            "icon-clickable",
+            "icon-right-clickable",
             "maxlength",
-            "has-counter"
+            "has-counter",
+            "custom-class",
+            "validation-message"
         ],
         "subtags": [],
         "description": "Buefy component <b-input>"
