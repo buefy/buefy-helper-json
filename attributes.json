@@ -935,6 +935,66 @@
         "description": "Callback function to call after user canceled (pressed escape / clicked outside)",
         "type": "function"
     },
+    "b-menu/accordion": {
+        "description": "Close automatically the previous selected menu list",
+        "type": "boolean"
+    },
+    "b-menu/activable": {
+        "description": "Active automatically the clicked menu item",
+        "type": "boolean"
+    },
+    "b-menu-list/label": {
+        "description": "Menu list label",
+        "type": "string"
+    },
+    "b-menu-list/icon": {
+        "description": "Icon name",
+        "type": "string"
+    },
+    "b-menu-list/icon-pack": {
+        "description": "Icon pack to use",
+        "options": ["mdi", "fa", "fas", "far", "fad", "fal"]
+    },
+    "b-menu-list/aria-role": {
+        "description": "Role attribute to be passed to list container for better accessibility. Use menu only in situations where your dropdown is really related to navigation.",
+        "options": ["menu"]
+    },
+    "b-menu-item/label": {
+        "description": "Menu item label",
+        "type": "string"
+    },
+    "b-menu-item/icon": {
+        "description": "Icon name",
+        "type": "string"
+    },
+    "b-menu-item/icon-pack": {
+        "description": "Icon pack to use",
+        "options": ["mdi", "fa", "fas", "far", "fad", "fal"]
+    },
+    "b-menu-item/disabled": {
+        "description": "Item is disabled",
+        "type": "boolean"
+    },
+    "b-menu-item/active": {
+        "description": "Item is active, use the .sync modifier to make it two-way binding",
+        "type": "boolean"
+    },
+    "b-menu-item/expanded": {
+        "description": "Item is expanded when default contains menu items, use the .sync modifier to make it two-way binding",
+        "type": "boolean"
+    },
+    "b-menu-item/animation": {
+        "description": "Custom animation (transition name)",
+        "type": "string"
+    },
+    "b-menu-item/tag": {
+        "description": "Button tag name",
+        "type": "string"
+    },
+    "b-menu-item/aria-role": {
+        "description": "Role attribute to be passed to list item for better accessibility. Use menuitem only in situations where your menu item is really related to navigation.",
+        "options": ["menuitem"]
+    },
     "b-message/type": {
         "description": "Type (color) of the message, optional",
         "type": "string"

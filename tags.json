@@ -335,6 +335,39 @@
         "subtags": [],
         "description": "Buefy component <b-loading>"
     },
+    "b-menu": {
+        "attributes": [
+            "accordion",
+            "activable"
+        ],
+        "subtags": ["b-menu-list"],
+        "description": "Buefy component <b-menu>"
+    },
+    "b-menu-list": {
+        "attributes": [
+            "label",
+            "icon",
+            "icon-pack",
+            "aria-role"
+        ],
+        "subtags": ["b-menu-item"],
+        "description": "Buefy component <b-menu-list>"
+    },
+    "b-menu-item": {
+        "attributes": [
+            "label",
+            "icon",
+            "icon-pack",
+            "disabled",
+            "active",
+            "expanded",
+            "animation",
+            "tag",
+            "aria-role"
+        ],
+        "subtags": [],
+        "description": "Buefy component <b-menu-item>"
+    },
     "b-message": {
         "attributes": [
             "type",
