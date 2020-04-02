@@ -1287,6 +1287,54 @@
         "description": "Radio button will be expanded (full-width)",
         "type": "boolean"
     },
+    "b-rate/value": {
+        "description": "Binding value",
+        "type": "number"
+    },
+    "b-rate/max": {
+        "description": "Max rating score",
+        "type": "number"
+    },
+    "b-rate/icon": {
+        "description": "to specify the icon",
+        "type": "string"
+    },
+    "b-rate/icon-pack": {
+        "description": "Icon pack to use",
+        "options": ["mdi", "fa", "fas", "far", "fab", "fad", "fal"]
+    },
+    "b-rate/size": {
+        "description": "Include show-text, show-score and custom-text, optional",
+        "options": ["is-small", "is-medium", "is-large"]
+    },
+    "b-rate/rtl": {
+        "description": "Change text direction show-text, show-score and custom-text to left",
+        "type": "boolean"
+    },
+    "b-rate/spaced": {
+        "description": "Added spacing for icons",
+        "type": "boolean"
+    },
+    "b-rate/disabled": {
+        "description": "Read only, if true Support decimal value",
+        "type": "boolean"
+    },
+    "b-rate/show-score": {
+        "description": "Display value",
+        "type": "boolean"
+    },
+    "b-rate/show-text": {
+        "description": "Display texts template. show-score and show-text cannot be true at the same time",
+        "type": "boolean"
+    },
+    "b-rate/custom-text": {
+        "description": "Display custom text like a total points or total reviews, and this only for show-score",
+        "type": "string"
+    },
+    "b-rate/texts": {
+        "description": "Texts template only for show-text, like on e-commerce",
+        "type": "array"
+    },
     "b-select/value": {
         "description": "Binding value",
         "type": "any"

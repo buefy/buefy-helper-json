@@ -486,6 +486,24 @@
         "subtags": [],
         "description": "Buefy component <b-radio-button>"
     },
+    "b-rate": {
+        "attributes": [
+            "value",
+            "max",
+            "icon",
+            "icon-pack",
+            "size",
+            "rtl",
+            "spaced",
+            "disabled",
+            "show-score",
+            "show-text",
+            "custom-text",
+            "texts"
+        ],
+        "subtags": [],
+        "description": "Buefy component <b-rate>"
+    },
     "b-select": {
         "attributes": [
             "value",
