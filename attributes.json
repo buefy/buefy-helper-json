@@ -1419,6 +1419,62 @@
         "description": "DOM element the sidebar will be created on when fixed",
         "type": "string"
     },
+    "b-slider/value": {
+        "description": "Binding value",
+        "type": "number|array"
+    },
+    "b-slider/min": {
+        "description": "Minimum value",
+        "type": "number"
+    },
+    "b-slider/max": {
+        "description": "Maximum value",
+        "type": "number"
+    },
+    "b-slider/step": {
+        "description": "Step interval of ticks",
+        "type": "number"
+    },
+    "b-slider/type": {
+        "description": "Type (color) of the slider, optional",
+        "type": "string"
+    },
+    "b-slider/size": {
+        "description": "Thickness of the slider, optional",
+        "options": ["is-small", "is-medium", "is-large"]
+    },
+    "b-slider/ticks": {
+        "description": "Show tick marks",
+        "type": "boolean"
+    },
+    "b-slider/tooltip": {
+        "description": "Show tooltip when thumb is being dragged",
+        "type": "boolean"
+    },
+    "b-slider/tooltip-type": {
+        "description": "The type (color) of the tootip. Defaults to type",
+        "type": "string"
+    },
+    "b-slider/rounded": {
+        "description": "Rounded thumb",
+        "type": "boolean"
+    },
+    "b-slider/disabled": {
+        "description": "Disable the slider",
+        "type": "boolean"
+    },
+    "b-slider/custom-formatter": {
+        "description": "Function to format the tooltip label for display",
+        "type": "function"
+    },
+    "b-slider/aria-label": {
+        "description": "Accessibility label for the thumbs",
+        "type": "string|array"
+    },
+    "b-slider/bigger-slider-focus": {
+        "description": "Increase the clickable area",
+        "type": "boolean"
+    },
     "b-switch/type": {
         "description": "Type (color) of the switch, optional",
         "type": "string"

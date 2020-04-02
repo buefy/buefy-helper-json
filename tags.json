@@ -537,6 +537,26 @@
         "subtags": [],
         "description": "Buefy component <b-sidebar>"
     },
+    "b-slider": {
+        "attributes": [
+            "value",
+            "min",
+            "max",
+            "step",
+            "type",
+            "size",
+            "ticks",
+            "tooltip",
+            "tooltip-type",
+            "rounded",
+            "disabled",
+            "custom-formatter",
+            "aria-label",
+            "bigger-slider-focus"
+        ],
+        "subtags": [],
+        "description": "Buefy component <b-slider>"
+    },
     "b-switch": {
         "attributes": [
             "type",
