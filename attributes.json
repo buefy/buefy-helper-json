@@ -1303,24 +1303,60 @@
         "description": "Items count for each page",
         "type": "number"
     },
+    "b-pagination/range-before": {
+        "description": "Number of pagination items to show before current page",
+        "type": "number"
+    },
+    "b-pagination/range-after": {
+        "description": "Items to paginatation items to show after current page",
+        "type": "number"
+    },
     "b-pagination/current": {
         "description": "Current page number, use the .sync modifier to make it two-way binding",
         "type": "number"
     },
     "b-pagination/order": {
         "description": "Buttons order, optional",
-        "type": "string"
+        "options": ["is-centered", "is-right"]
     },
     "b-pagination/size": {
         "description": "Pagination size, optional",
-        "type": "string"
+        "options": ["is-small", "is-medium", "is-large"]
     },
     "b-pagination/simple": {
         "description": "Simpler style",
         "type": "boolean"
     },
+    "b-pagination/rounded": {
+        "description": "Rounded button styles",
+        "type": "boolean"
+    },
     "b-pagination/icon-pack": {
         "description": "Icon pack to use",
+        "options": ["mdi", "fa", "fas", "far", "fab", "fad", "fal"]
+    },
+    "b-pagination/icon-prev": {
+        "description": "Icon to use for previous button",
+        "type": "string"
+    },
+    "b-pagination/icon-next": {
+        "description": "Icon to use for next button",
+        "type": "string"
+    },
+    "b-pagination/aria-next-label": {
+        "description": "Accessibility label for the next page link.",
+        "type": "string"
+    },
+    "b-pagination/aria-previous-label": {
+        "description": "Accessibility label for the previous page link.",
+        "type": "string"
+    },
+    "b-pagination/aria-page-label": {
+        "description": "Accessibility label for the page link. If passed, this text will be prepended to the number of the page.",
+        "type": "string"
+    },
+    "b-pagination/aria-current-label": {
+        "description": "Accessibility label for the current page link. If passed, this text will be prepended to the current page.",
         "type": "string"
     },
     "b-panel/collapsible": {

@@ -486,14 +486,31 @@
         "attributes": [
             "total",
             "per-page",
+            "range-before",
+            "range-after",
             "current",
             "order",
             "size",
             "simple",
-            "icon-pack"
+            "rounded",
+            "icon-pack",
+            "icon-prev",
+            "icon-next",
+            "aria-next-label",
+            "aria-previous-label",
+            "aria-page-label",
+            "aria-current-label"
+        ],
+        "subtags": ["b-pagination-button"],
+        "description": "Buefy component <b-pagination>"
+    },
+    "b-pagination-button": {
+        "attributes": [
+            "page",
+            "tag"
         ],
         "subtags": [],
-        "description": "Buefy component <b-pagination>"
+        "description": "Buefy component <b-pagination-button>"
     },
     "b-panel": {
         "attributes": [
