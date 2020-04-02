@@ -329,8 +329,8 @@
             "active",
             "animation",
             "is-full-page",
-            "canCancel",
-            "onCancel"
+            "can-cancel",
+            "on-cancel"
         ],
         "subtags": [],
         "description": "Buefy component <b-loading>"

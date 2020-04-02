@@ -927,11 +927,11 @@
         "description": "Loader will overlay the full page",
         "type": "boolean"
     },
-    "b-loading/canCancel": {
+    "b-loading/can-cancel": {
         "description": "Can close Loading by pressing escape or clicking outside",
         "type": "boolean"
     },
-    "b-loading/onCancel": {
+    "b-loading/on-cancel": {
         "description": "Callback function to call after user canceled (pressed escape / clicked outside)",
         "type": "function"
     },
