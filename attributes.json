@@ -1359,6 +1359,14 @@
         "description": "Accessibility label for the current page link. If passed, this text will be prepended to the current page.",
         "type": "string"
     },
+    "b-pagination-button/page": {
+        "description": "The prop page need to be passed upon the component (:page=\"props.page\").",
+        "type": "object"
+    },
+    "b-pagination-button/tag": {
+        "description": "Button tag name",
+        "type": "string"
+    },
     "b-panel/collapsible": {
         "description": "Panel will be collapsible",
         "type": "boolean"
