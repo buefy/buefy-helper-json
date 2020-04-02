@@ -40,6 +40,69 @@
         "subtags": [],
         "description": "Buefy component <b-button>"
     },
+    "b-carousel": {
+        "attributes": [
+            "value",
+            "animated",
+            "interval",
+            "has-drag",
+            "autoplay",
+            "pause-hover",
+            "pause-info",
+            "pause-info-type",
+            "pause-text",
+            "arrow",
+            "arrow-both",
+            "arrow-hover",
+            "repeat",
+            "icon-pack",
+            "icon-size",
+            "icon-prev",
+            "icon-next",
+            "indicator",
+            "indicator-background",
+            "indicator-custom",
+            "indicator-custom-size",
+            "indicator-inside",
+            "indicator-mode",
+            "indicator-position",
+            "indicator-style",
+            "overlay",
+            "progress",
+            "progress-type",
+            "with-carousel-list"
+        ],
+        "subtags": ["b-carousel-item", "b-carousel-list"],
+        "description": "Buefy component <b-carousel>"
+    },
+    "b-carousel-item": {
+        "attributes": [],
+        "subtags": [],
+        "description": "Buefy component <b-carousel-item>"
+    },
+    "b-carousel-list": {
+        "attributes": [
+            "value",
+            "data",
+            "config",
+            "has-drag",
+            "has-grayscale",
+            "has-opacity",
+            "repeat",
+            "items-to-show",
+            "items-to-list",
+            "as-indicator",
+            "refresh",
+            "arrow",
+            "arrow-hover",
+            "icon-pack",
+            "icon-size",
+            "icon-prev",
+            "icon-next"
+        ],
+        "subtags": [],
+        "description": "Buefy component <b-carousel-list>"
+    },
     "b-checkbox": {
         "attributes": [
             "value",

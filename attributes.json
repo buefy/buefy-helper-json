@@ -115,6 +115,190 @@
         "description": "Button tag name",
         "type": "string"
     },
+    "b-carousel/value": {
+        "description": "Binding value",
+        "type": "number"
+    },
+    "b-carousel/animated": {
+        "description": "Transition effect",
+        "options": ["fade", "slide"]
+    },
+    "b-carousel/interval": {
+        "description": "Interval of the autoplay, in milliseconds",
+        "type": "number"
+    },
+    "b-carousel/has-drag": {
+        "description": "Toggle touch dragging, when touch not detected. auto switch mouse dragging",
+        "type": "boolean"
+    },
+    "b-carousel/autoplay": {
+        "description": "Whether automatically loop the slides",
+        "type": "boolean"
+    },
+    "b-carousel/pause-hover": {
+        "description": "Pause carousel when autoplay and mouse enter",
+        "type": "boolean"
+    },
+    "b-carousel/pause-info": {
+        "description": "Show infomation pause when autoplay and pause-hover",
+        "type": "boolean"
+    },
+    "b-carousel/pause-info-type": {
+        "description": "Type (color) of the pause-info, optional",
+        "type": "string"
+    },
+    "b-carousel/pause-text": {
+        "description": "Text when pause",
+        "type": "string"
+    },
+    "b-carousel/arrow": {
+        "description": "Display the \"next\" and \"prev\" action",
+        "type": "boolean"
+    },
+    "b-carousel/arrow-both": {
+        "description": "Display the \"next\" and \"prev\" action when first or last item",
+        "type": "boolean"
+    },
+    "b-carousel/arrow-hover": {
+        "description": "Display the \"next\" and \"prev\" action when hover, but hidden on mobile",
+        "type": "boolean"
+    },
+    "b-carousel/repeat": {
+        "description": "Controls whether the carousel loops around at the start and end.",
+        "type": "boolean"
+    },
+    "b-carousel/icon-pack": {
+        "description": "Icon pack to use",
+        "options": ["mdi", "fa", "fas", "far", "fab", "fad", "fal"]
+    },
+    "b-carousel/icon-size": {
+        "description": "Arrow icon size, optional",
+        "options": ["is-small", "is-medium", "is-large"]
+    },
+    "b-carousel/icon-prev": {
+        "description": "Icon to use for previous arrow",
+        "type": "string"
+    },
+    "b-carousel/icon-next": {
+        "description": "Icon to use for next arrow",
+        "type": "string"
+    },
+    "b-carousel/indicator": {
+        "description": "Display the indicator for jumping to specific item",
+        "type": "boolean"
+    },
+    "b-carousel/indicator-background": {
+        "description": "Added background for indicator",
+        "type": "boolean"
+    },
+    "b-carousel/indicator-custom": {
+        "description": "use when the image is more than 6 so that the indicator is not too small",
+        "type": "boolean"
+    },
+    "b-carousel/indicator-custom-size": {
+        "description": "image size on the indicator when the indicator-custom is used",
+        "options": ["is-small", "is-medium"]
+    },
+    "b-carousel/indicator-inside": {
+        "description": "Display the indicator inside on carousel",
+        "type": "boolean"
+    },
+    "b-carousel/indicator-mode": {
+        "description": "Trigger for action indicator",
+        "options": ["click", "hover"]
+    },
+    "b-carousel/indicator-position": {
+        "description": "Position indicator only when indicator-inside",
+        "options": ["is-bottom", "is-top"]
+    },
+    "b-carousel/indicator-style": {
+        "description": "Style for indicator of carousel",
+        "options": ["is-boxes", "is-dots", "is-lines"]
+    },
+    "b-carousel/overlay": {
+        "description": "Switch like a gallery",
+        "type": "boolean"
+    },
+    "b-carousel/progress": {
+        "description": "Display the progress item of carousel",
+        "type": "boolean"
+    },
+    "b-carousel/progress-type": {
+        "description": "Type (color) of the progress, optional",
+        "type": "string"
+    },
+    "b-carousel/with-carousel-list": {
+        "description": "use this when indicator custom with b-carousel-list",
+        "type": "boolean"
+    },
+    "b-carousel-list/value": {
+        "description": "Binding value",
+        "type": "number"
+    },
+    "b-carousel-list/data": {
+        "description": "Carousel-list data",
+        "type": "array"
+    },
+    "b-carousel-list/config": {
+        "description": "An object to pass all configs",
+        "type": "object"
+    },
+    "b-carousel-list/has-drag": {
+        "description": "Toggle touch dragging, when touch not detected. auto switch mouse dragging",
+        "type": "boolean"
+    },
+    "b-carousel-list/has-grayscale": {
+        "description": "Give a effect grayscale on img",
+        "type": "boolean"
+    },
+    "b-carousel-list/has-opacity": {
+        "description": "Give a effect opacity on img",
+        "type": "boolean"
+    },
+    "b-carousel-list/repeat": {
+        "description": "Back to value 0 when item active same with total data",
+        "type": "boolean"
+    },
+    "b-carousel-list/items-to-show": {
+        "description": "count of items to showed per view (support a decimal).",
+        "type": "number"
+    },
+    "b-carousel-list/items-to-list": {
+        "description": "count of items to list when use navigation buttons",
+        "type": "number"
+    },
+    "b-carousel-list/as-indicator": {
+        "description": "Switch mode to indicator for carousel",
+        "type": "boolean"
+    },
+    "b-carousel-list/refresh": {
+        "description": "Refresh for overlay carousel",
+        "type": "boolean"
+    },
+    "b-carousel-list/arrow": {
+        "description": "Display the \"next\" or \"prev\" action when first or last item",
+        "type": "boolean"
+    },
+    "b-carousel-list/arrow-hover": {
+        "description": "Display Arrow action when hover, but hidden on mobile",
+        "type": "boolean"
+    },
+    "b-carousel-list/icon-pack": {
+        "description": "Icon pack to use",
+        "options": ["mdi", "fa", "fas", "far", "fab", "fad", "fal"]
+    },
+    "b-carousel-list/icon-size": {
+        "description": "Arrow icon size, optional",
+        "options": ["is-small", "is-medium", "is-large"]
+    },
+    "b-carousel-list/icon-prev": {
+        "description": "Icon to use for previous arrow",
+        "type": "string"
+    },
+    "b-carousel-list/icon-next": {
+        "description": "Icon to use for next arrow",
+        "type": "string"
+    },
     "b-checkbox/value": {
         "description": "Binding value",
         "type": "any"
